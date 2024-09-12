@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-no-sbom-sept12-database-config
+data:
+  VECTORDB_HOST: "test-no-sbom-sept12-database"
+  VECTORDB_PORT: ""
